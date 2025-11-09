@@ -21,10 +21,14 @@ export default function Board() {
   }
 
   const winner = calculateWinner(squares);
+  const isDraw = squares.every(Boolean);
   let   status;
 
   if (winner) {
     status = "Winner is: " + winner;
+  }
+  else if (isDraw) {
+    status = "Draw!"
   }
   else {
     status = "Next Player is: " + (xIsNext ? 'X' : 'O');

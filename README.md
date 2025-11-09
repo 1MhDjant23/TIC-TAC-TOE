@@ -1,65 +1,46 @@
-# TIC-TAC-TOE
+# Tic-Tac-Toe
 
-An interactive tic-tac-toe game where players can compete against each other in the classic 3x3 grid game.
+An interactive tic-tac-toe game where two players compete on a 3x3 grid.
 
 ## 📝 About the Game
-
-Tic-tac-toe (also known as noughts and crosses or Xs and Os) is a classic paper-and-pencil game for two players who take turns marking spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.
-
-## 🎮 Game Rules
-
-1. The game is played on a 3x3 grid
-2. Two players take turns placing their marks (X or O)
-3. Player 1 uses "X" and Player 2 uses "O"
-4. The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins
-5. If all 9 squares are filled and no player has 3 marks in a row, the game is a draw
+Players take turns marking squares with X and O. The first to align three marks horizontally, vertically, or diagonally wins.
 
 ## ✨ Features
+- Two-player local play
+- 3x3 grid with clickable squares
+- Turn indicator
+- Winner detection (rows, columns, diagonals)
+- Draw detection (shows "Draw!" when the board is full with no winner)
 
-- Interactive gameplay for two players
-- Clear visual representation of the game board
-- Win detection for rows, columns, and diagonals
-- Draw detection when the board is full
-- Simple and intuitive interface
+## 🟰 Draw
+A game is a draw when all 9 squares are filled and no player has three in a row. The status displays “Draw!”.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
-This section will be updated once the implementation is complete.
+- Node.js >= 18
+- npm >= 9
 
 ### Installation
-
 ```bash
-# Clone the repository
-git clone https://github.com/1MhDjant23/TIC-TAC-TOE.git
+# Clone the repository (update the URL to your repo name)
+git clone https://github.com/1MhDjant23/tic-tac-toe.git
+cd tic-tac-toe
 
-# Navigate to the project directory
-cd TIC-TAC-TOE
-
-# Install Dependencies (you must have `npm` installed in your OS):
+# Install dependencies and run
 npm install
 npm start
 ```
 
+### Available Scripts
+- npm start — runs the app in development mode
+- npm run build — production build
 
 ## 🛠️ Technologies Used
-
-To be determined based on implementation.
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-- Report bugs
-- Suggest new features
-- Submit pull requests
+- React 18
+- react-scripts 5
+- JavaScript (ES2020+)
 
 ## 👤 Author
-
-**MOHAMED AIT TAJANTE**
+**MOHAMED AIT TAJANTE**  
 - GitHub: [@1MhDjant23](https://github.com/1MhDjant23)
-
----
-
-Made with ❤️ for game enthusiasts
